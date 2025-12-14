@@ -1,0 +1,205 @@
+/*
+//Example-1
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+    cout<<"Please enter a number="; cin>>n;
+   for(int i=1; i<=n; i++) {
+    for(int j=1; j<=n; j++) { 
+      cout<<j;
+    } 
+      cout<<endl;
+   }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-2
+#include <iostream>
+using namespace std;
+int main (){
+  int n; 
+   cout<<"Please enter a number="; cin>>n;
+    for(int i=1; i<=n; i++){
+      for(int j=1; j<=i; j++){
+       cout<<j;
+       }
+    cout<<endl;
+    }
+   system ("pause");
+return 0; 
+}
+*/
+/*
+//Example-3
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+    cout<<"Please enter a number="; cin>>n;
+     for(int i=1; i<=n; i++){
+        for(int j=i; j<=n; j++){
+         cout<<j;
+      }
+     cout<<endl;
+  }
+  system ("pause");
+return 0;
+}
+*/
+/*
+//Example-4
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+    cout<<"Please enter a number="; cin>>n;
+      for(int i=5; i>=n; i--) {
+       for(int j=1; j<=n; j++) {
+         cout<<i;
+      }
+    cout<<endl;
+   }
+  system ("pause");
+return 0;
+}
+*/ 
+/*
+//Example-5
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+    cout<<"Please enter a number="; cin>>n;
+      for(int i=5; i>=n; i--) {
+       for(int j=1; j<=i; j++) {
+         cout<<i;
+      }
+    cout<<endl;
+   }
+  system ("pause");
+return 0;
+}
+*/
+/*
+//Example-6
+#include <iostream>
+using namespace std;
+int main(){
+  int n;
+    cout<<"Please enter a number="; cin>>n;
+      for(int i=5; i>=n; i--) {
+        for(int j=1; j<=n; j++){
+          cout<<i;
+          }
+      cout<<endl;
+    }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-7 
+#include <iostream>
+using namespace std;
+int main(){
+   int n;
+     cout<<"Please enter a number="; cin>>n;
+      for(int i=1; i<=n; i++){
+       for(int j=1; j<=i; j++){
+          cout<<i;
+          }
+     cout<<endl;
+      }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-8 
+#include <iostream>
+using namespace std;
+int main(){
+  int n;
+    cout<<"Please enter a number="; cin>>n;
+     for(int i=5; i>=n; i--){
+       for(int j=1; j<=i; j++){
+        cout<<j;
+        }
+    cout<<endl;
+    }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-9 
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+     cout<<"Please enter a number="; cin>>n;
+       for(int i=1; i<=n; i++){
+         for(int j=5; j>=i; j--){
+           cout<<i;
+       }
+    cout<<endl;
+    }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-10 
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+     cout<<"Please enter a number="; cin>>n;
+      for(int i=1; i<=n; i++){
+       for(int j=5; j>=i; j--){
+        cout<<j;
+        }
+      cout<<endl;
+    }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-11
+#include <iostream>
+using namespace std;
+int main(){
+   int n;
+      cout<<"Please enter a number="; cin>>n;
+        for(int i=5; i>=n; i--){
+          for(int j=1; j<=n; j++){
+          cout<<i;
+        }
+         cout<<endl;
+      }
+  system("pause");
+return 0;
+}
+*/
+/*
+//Example-12
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+    cout<<"Please enter a number="; cin>>n;
+     for(int i=1; i<=n; i++){
+       for(int j=n; j>=i; j--){
+        cout<<j;
+      }
+    cout<<endl;
+   }
+  system("pause");
+return 0;
+}
+*/
+      
