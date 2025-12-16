@@ -1,0 +1,85 @@
+/*
+//Function parameters
+#include <iostream>
+using namespace std;
+void myFunction(string fname, int age){
+  cout<<fname<<"Keskin is "<<age<<" years old."<<endl;
+  }
+ int main () {
+  myFunction("Kerem ",19);
+ system("pause");
+return 0;
+}
+*/
+/*
+//Function Overloading (with both int and double)
+#include <iostream>
+using namespace std;
+ int plusFunc(int x, int y){
+  return x+y;
+  }
+ double plusFunc(double x, double y){
+  return x+y; 
+  }
+  int main(){
+   int myNum1 = plusFunc(8,5); //calling int parameters
+   double myNum2 = plusFunc(4.3,6.26); //calling double parameters
+    cout<<"Your function number is="<<myNum1<<endl;
+    cout<<"Your function number is="<<myNum2<<endl;
+ system("pause");
+return 0;
+}
+*/
+/*
+//Function Overloading (with both int and double) of four numbers entered from the keyboard
+#include <iostream>
+using namespace std;
+ int plusFunc(int n, int y){
+  return n+y;
+  }
+ double plusFunc(double m, double k){
+  return m+k;
+  }
+ int main(){
+   int n,y;
+     cout<<"Please enter first number="; cin>>n;
+     cout<<"Please enter second number="; cin>>y;
+   double m,k;
+     cout<<"Please enter third number="; cin>>m;
+     cout<<"Please enter fourth number="; cin>>k;
+        int myNum1= plusFunc(n,y);
+        double myNum2= plusFunc(m,k);
+      cout<<"Your first function number="<<myNum1<<endl;
+      cout<<"Your second function number="<<myNum2<<endl;
+  system("pause");
+return 0;
+}
+*/
+/*
+//Return value with a parameter
+#include <iostream>
+using namespace std;
+ int myFunction(int x){
+   return x+5;
+   }
+  int main (){
+    cout<<"Your function number is="<<myFunction(3)<<endl;
+  system("pause");
+return 0;
+}
+*/
+/*
+//Return value of the numbers entered from the keyboard is given as a parameter.
+#include <iostream>
+ using namespace std;
+  int myFunction(int n){
+      return n+10;
+  }
+   int main(){ 
+     int n;
+     cout<<"Please enter a number="; cin>>n;
+     cout<<"Your function number is="<<myFunction(n)<<endl;
+ system("pause");
+return 0;
+}
+*/
