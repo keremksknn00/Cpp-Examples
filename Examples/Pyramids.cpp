@@ -202,4 +202,22 @@ int main(){
 return 0;
 }
 */
+/*
+//Example-13 
+#include <iostream>
+using namespace std;
+int main(){
+  int n; 
+   cout<<"Please enter a number="; cin>>n;
+    for(int i=5; i>=n; i--){
+     for(int j=5; j>=i; j--){
+      cout<<j;
+    }
+   cout<<endl;
+  }
+ system("pause");
+return 0;
+}
+*/
+
       
